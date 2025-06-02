@@ -5,7 +5,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 /* @custom-variant dark (&:is(.dark *)); */
 /* :root {
   --background: 186 55% 1%;
@@ -74,180 +73,354 @@
   --radius-xl: calc(var(--radius) + 4px);
 } */
 
-
 @layer base {
-  :root {
-  --background: 220 23% 5%;
-      --foreground: 210 25% 95%;
-      --muted: 220 12% 15%;
-      --muted-foreground: 220 12% 65%;
-      --popover: 220 23% 2%;
-      --popover-foreground: 0 0% 100%;
-      --card: 220 23% 3%;
-      --card-foreground: 0 0% 100%;
-      --border: 220 13% 10%;
-      --input: 220 13% 13%;
-      --primary: 210 25% 95%;
-      --primary-foreground: 210 25% 35%;
-      --secondary: 210 15% 25%;
-      --secondary-foreground: 210 15% 85%;
-      --accent: 220 23% 20%;
-      --accent-foreground: 220 23% 80%;
-      --destructive: 2 81% 55%;
-      --destructive-foreground: 0 0% 100%;
-      --ring: 210 25% 95%;
-      --chart-1: 210 25% 95%;
-      --chart-2: 210 15% 25%;
-      --chart-3: 220 23% 20%;
-      --chart-4: 210 15% 28%;
-      --chart-5: 210 28% 95%;
-      --radius: 0.5rem;
+	:root {
+		--background: 220 23% 5%;
+		--foreground: 210 25% 95%;
+		--muted: 220 12% 15%;
+		--muted-foreground: 220 12% 65%;
+		--popover: 220 23% 2%;
+		--popover-foreground: 0 0% 100%;
+		--card: 220 23% 3%;
+		--card-foreground: 0 0% 100%;
+		--border: 220 13% 10%;
+		--input: 220 13% 13%;
+		--primary: 210 25% 95%;
+		--primary-foreground: 210 25% 35%;
+		--secondary: 210 15% 25%;
+		--secondary-foreground: 210 15% 85%;
+		--accent: 220 23% 20%;
+		--accent-foreground: 220 23% 80%;
+		--destructive: 2 81% 55%;
+		--destructive-foreground: 0 0% 100%;
+		--ring: 210 25% 95%;
+		--chart-1: 210 25% 95%;
+		--chart-2: 210 15% 25%;
+		--chart-3: 220 23% 20%;
+		--chart-4: 210 15% 28%;
+		--chart-5: 210 28% 95%;
+		--radius: 0.5rem;
+	}
 }
 
-} 
-
 @layer utilities {
-  /* Couleurs background et text */
-  .bg-background { background-color: hsl(var(--background)); }
-  .text-background { color: hsl(var(--background)); }
+	/* Couleurs background et text */
+	.bg-background {
+		background-color: hsl(var(--background));
+	}
+	.text-background {
+		color: hsl(var(--background));
+	}
 
-  .bg-foreground { background-color: hsl(var(--foreground)); }
-  .text-foreground { color: hsl(var(--foreground)); }
+	.bg-foreground {
+		background-color: hsl(var(--foreground));
+	}
+	.text-foreground {
+		color: hsl(var(--foreground));
+	}
 
-  .bg-accent { background-color: hsl(var(--accent)); }
-  .text-accent { color: hsl(var(--accent)); }
+	.bg-accent {
+		background-color: hsl(var(--accent));
+	}
+	.text-accent {
+		color: hsl(var(--accent));
+	}
 
-  .bg-accent-foreground { background-color: hsl(var(--accent-foreground)); }
-  .text-accent-foreground { color: hsl(var(--accent-foreground)); }
+	.bg-accent-foreground {
+		background-color: hsl(var(--accent-foreground));
+	}
+	.text-accent-foreground {
+		color: hsl(var(--accent-foreground));
+	}
 
-  .bg-card { background-color: hsl(var(--card)); }
-  .text-card { color: hsl(var(--card)); }
+	.bg-card {
+		background-color: hsl(var(--card));
+	}
+	.text-card {
+		color: hsl(var(--card));
+	}
 
-  .bg-card-foreground { background-color: hsl(var(--card-foreground)); }
-  .text-card-foreground { color: hsl(var(--card-foreground)); }
+	.bg-card-foreground {
+		background-color: hsl(var(--card-foreground));
+	}
+	.text-card-foreground {
+		color: hsl(var(--card-foreground));
+	}
 
-  .bg-primary { background-color: hsl(var(--primary)); }
-  .text-primary { color: hsl(var(--primary)); }
+	.bg-primary {
+		background-color: hsl(var(--primary));
+	}
+	.text-primary {
+		color: hsl(var(--primary));
+	}
 
-  .bg-primary-foreground { background-color: hsl(var(--primary-foreground)); }
-  .text-primary-foreground { color: hsl(var(--primary-foreground)); }
+	.bg-primary-foreground {
+		background-color: hsl(var(--primary-foreground));
+	}
+	.text-primary-foreground {
+		color: hsl(var(--primary-foreground));
+	}
 
-  .bg-secondary { background-color: hsl(var(--secondary)); }
-  .text-secondary { color: hsl(var(--secondary)); }
+	.bg-secondary {
+		background-color: hsl(var(--secondary));
+	}
+	.text-secondary {
+		color: hsl(var(--secondary));
+	}
 
-  .bg-secondary-foreground { background-color: hsl(var(--secondary-foreground)); }
-  .text-secondary-foreground { color: hsl(var(--secondary-foreground)); }
+	.bg-secondary-foreground {
+		background-color: hsl(var(--secondary-foreground));
+	}
+	.text-secondary-foreground {
+		color: hsl(var(--secondary-foreground));
+	}
 
-  .bg-muted { background-color: hsl(var(--muted)); }
-  .text-muted { color: hsl(var(--muted)); }
+	.bg-muted {
+		background-color: hsl(var(--muted));
+	}
+	.text-muted {
+		color: hsl(var(--muted));
+	}
 
-  .bg-muted-foreground { background-color: hsl(var(--muted-foreground)); }
-  .text-muted-foreground { color: hsl(var(--muted-foreground)); }
+	.bg-muted-foreground {
+		background-color: hsl(var(--muted-foreground));
+	}
+	.text-muted-foreground {
+		color: hsl(var(--muted-foreground));
+	}
 
-  .bg-destructive { background-color: hsl(var(--destructive)); }
-  .text-destructive { color: hsl(var(--destructive)); }
+	.bg-destructive {
+		background-color: hsl(var(--destructive));
+	}
+	.text-destructive {
+		color: hsl(var(--destructive));
+	}
 
-  .bg-destructive-foreground { background-color: hsl(var(--destructive-foreground)); }
-  .text-destructive-foreground { color: hsl(var(--destructive-foreground)); }
+	.bg-destructive-foreground {
+		background-color: hsl(var(--destructive-foreground));
+	}
+	.text-destructive-foreground {
+		color: hsl(var(--destructive-foreground));
+	}
 
-  .bg-popover { background-color: hsl(var(--popover)); }
-  .text-popover { color: hsl(var(--popover)); }
+	.bg-popover {
+		background-color: hsl(var(--popover));
+	}
+	.text-popover {
+		color: hsl(var(--popover));
+	}
 
-  .bg-popover-foreground { background-color: hsl(var(--popover-foreground)); }
-  .text-popover-foreground { color: hsl(var(--popover-foreground)); }
+	.bg-popover-foreground {
+		background-color: hsl(var(--popover-foreground));
+	}
+	.text-popover-foreground {
+		color: hsl(var(--popover-foreground));
+	}
 
-  .bg-border { background-color: hsl(var(--border)); }
-  .text-border { color: hsl(var(--border)); }
+	.bg-border {
+		background-color: hsl(var(--border));
+	}
+	.text-border {
+		color: hsl(var(--border));
+	}
 
-  .bg-input { background-color: hsl(var(--input)); }
-  .text-input { color: hsl(var(--input)); }
+	.bg-input {
+		background-color: hsl(var(--input));
+	}
+	.text-input {
+		color: hsl(var(--input));
+	}
 
-  .bg-ring { background-color: hsl(var(--ring)); }
-  .text-ring { color: hsl(var(--ring)); }
+	.bg-ring {
+		background-color: hsl(var(--ring));
+	}
+	.text-ring {
+		color: hsl(var(--ring));
+	}
 
-  .bg-ring-offset { background-color: hsl(var(--ring-offset)); }
-  .text-ring-offset { color: hsl(var(--ring-offset)); }
+	.bg-ring-offset {
+		background-color: hsl(var(--ring-offset));
+	}
+	.text-ring-offset {
+		color: hsl(var(--ring-offset));
+	}
 
-  .bg-accent-muted { background-color: hsl(var(--accent-muted)); }
-  .text-accent-muted { color: hsl(var(--accent-muted)); }
+	.bg-accent-muted {
+		background-color: hsl(var(--accent-muted));
+	}
+	.text-accent-muted {
+		color: hsl(var(--accent-muted));
+	}
 
-  .bg-accent-muted-foreground { background-color: hsl(var(--accent-muted-foreground)); }
-  .text-accent-muted-foreground { color: hsl(var(--accent-muted-foreground)); }
+	.bg-accent-muted-foreground {
+		background-color: hsl(var(--accent-muted-foreground));
+	}
+	.text-accent-muted-foreground {
+		color: hsl(var(--accent-muted-foreground));
+	}
 
-  .bg-accent-border { background-color: hsl(var(--accent-border)); }
-  .text-accent-border { color: hsl(var(--accent-border)); }
+	.bg-accent-border {
+		background-color: hsl(var(--accent-border));
+	}
+	.text-accent-border {
+		color: hsl(var(--accent-border));
+	}
 
-  .bg-accent-hover { background-color: hsl(var(--accent-hover)); }
-  .text-accent-hover { color: hsl(var(--accent-hover)); }
+	.bg-accent-hover {
+		background-color: hsl(var(--accent-hover));
+	}
+	.text-accent-hover {
+		color: hsl(var(--accent-hover));
+	}
 
-  .bg-accent-active { background-color: hsl(var(--accent-active)); }
-  .text-accent-active { color: hsl(var(--accent-active)); }
+	.bg-accent-active {
+		background-color: hsl(var(--accent-active));
+	}
+	.text-accent-active {
+		color: hsl(var(--accent-active));
+	}
 
-  .bg-accent-focus { background-color: hsl(var(--accent-focus)); }
-  .text-accent-focus { color: hsl(var(--accent-focus)); }
+	.bg-accent-focus {
+		background-color: hsl(var(--accent-focus));
+	}
+	.text-accent-focus {
+		color: hsl(var(--accent-focus));
+	}
 
-  .bg-accent-muted-hover { background-color: hsl(var(--accent-muted-hover)); }
-  .text-accent-muted-hover { color: hsl(var(--accent-muted-hover)); }
+	.bg-accent-muted-hover {
+		background-color: hsl(var(--accent-muted-hover));
+	}
+	.text-accent-muted-hover {
+		color: hsl(var(--accent-muted-hover));
+	}
 
-  .bg-accent-muted-active { background-color: hsl(var(--accent-muted-active)); }
-  .text-accent-muted-active { color: hsl(var(--accent-muted-active)); }
+	.bg-accent-muted-active {
+		background-color: hsl(var(--accent-muted-active));
+	}
+	.text-accent-muted-active {
+		color: hsl(var(--accent-muted-active));
+	}
 
-  .bg-accent-muted-focus { background-color: hsl(var(--accent-muted-focus)); }
-  .text-accent-muted-focus { color: hsl(var(--accent-muted-focus)); }
+	.bg-accent-muted-focus {
+		background-color: hsl(var(--accent-muted-focus));
+	}
+	.text-accent-muted-focus {
+		color: hsl(var(--accent-muted-focus));
+	}
 
-  .bg-accent-foreground-hover { background-color: hsl(var(--accent-foreground-hover)); }
-  .text-accent-foreground-hover { color: hsl(var(--accent-foreground-hover)); }
+	.bg-accent-foreground-hover {
+		background-color: hsl(var(--accent-foreground-hover));
+	}
+	.text-accent-foreground-hover {
+		color: hsl(var(--accent-foreground-hover));
+	}
 
-  .bg-accent-foreground-active { background-color: hsl(var(--accent-foreground-active)); }
-  .text-accent-foreground-active { color: hsl(var(--accent-foreground-active)); }
+	.bg-accent-foreground-active {
+		background-color: hsl(var(--accent-foreground-active));
+	}
+	.text-accent-foreground-active {
+		color: hsl(var(--accent-foreground-active));
+	}
 
-  .bg-accent-foreground-focus { background-color: hsl(var(--accent-foreground-focus)); }
-  .text-accent-foreground-focus { color: hsl(var(--accent-foreground-focus)); }
+	.bg-accent-foreground-focus {
+		background-color: hsl(var(--accent-foreground-focus));
+	}
+	.text-accent-foreground-focus {
+		color: hsl(var(--accent-foreground-focus));
+	}
 
-  .bg-accent-foreground-muted { background-color: hsl(var(--accent-foreground-muted)); }
-  .text-accent-foreground-muted { color: hsl(var(--accent-foreground-muted)); }
+	.bg-accent-foreground-muted {
+		background-color: hsl(var(--accent-foreground-muted));
+	}
+	.text-accent-foreground-muted {
+		color: hsl(var(--accent-foreground-muted));
+	}
 
-  .bg-accent-foreground-muted-hover { background-color: hsl(var(--accent-foreground-muted-hover)); }
-  .text-accent-foreground-muted-hover { color: hsl(var(--accent-foreground-muted-hover)); }
+	.bg-accent-foreground-muted-hover {
+		background-color: hsl(var(--accent-foreground-muted-hover));
+	}
+	.text-accent-foreground-muted-hover {
+		color: hsl(var(--accent-foreground-muted-hover));
+	}
 
-  .bg-accent-foreground-muted-active { background-color: hsl(var(--accent-foreground-muted-active)); }
-  .text-accent-foreground-muted-active { color: hsl(var(--accent-foreground-muted-active)); }
+	.bg-accent-foreground-muted-active {
+		background-color: hsl(var(--accent-foreground-muted-active));
+	}
+	.text-accent-foreground-muted-active {
+		color: hsl(var(--accent-foreground-muted-active));
+	}
 
-  .bg-accent-foreground-muted-focus { background-color: hsl(var(--accent-foreground-muted-focus)); }
-  .text-accent-foreground-muted-focus { color: hsl(var(--accent-foreground-muted-focus)); }
+	.bg-accent-foreground-muted-focus {
+		background-color: hsl(var(--accent-foreground-muted-focus));
+	}
+	.text-accent-foreground-muted-focus {
+		color: hsl(var(--accent-foreground-muted-focus));
+	}
 
-  .bg-accent-foreground-border { background-color: hsl(var(--accent-foreground-border)); }
-  .text-accent-foreground-border { color: hsl(var(--accent-foreground-border)); }
+	.bg-accent-foreground-border {
+		background-color: hsl(var(--accent-foreground-border));
+	}
+	.text-accent-foreground-border {
+		color: hsl(var(--accent-foreground-border));
+	}
 
-  .bg-accent-foreground-border-hover { background-color: hsl(var(--accent-foreground-border-hover)); }
-  .text-accent-foreground-border-hover { color: hsl(var(--accent-foreground-border-hover)); }
+	.bg-accent-foreground-border-hover {
+		background-color: hsl(var(--accent-foreground-border-hover));
+	}
+	.text-accent-foreground-border-hover {
+		color: hsl(var(--accent-foreground-border-hover));
+	}
 
-  .bg-accent-foreground-border-active { background-color: hsl(var(--accent-foreground-border-active)); }
-  .text-accent-foreground-border-active { color: hsl(var(--accent-foreground-border-active)); }
+	.bg-accent-foreground-border-active {
+		background-color: hsl(var(--accent-foreground-border-active));
+	}
+	.text-accent-foreground-border-active {
+		color: hsl(var(--accent-foreground-border-active));
+	}
 
-  .bg-accent-foreground-border-focus { background-color: hsl(var(--accent-foreground-border-focus)); }
-  .text-accent-foreground-border-focus { color: hsl(var(--accent-foreground-border-focus)); }
+	.bg-accent-foreground-border-focus {
+		background-color: hsl(var(--accent-foreground-border-focus));
+	}
+	.text-accent-foreground-border-focus {
+		color: hsl(var(--accent-foreground-border-focus));
+	}
 
-  .bg-accent-foreground-border-muted { background-color: hsl(var(--accent-foreground-border-muted)); }
-  .text-accent-foreground-border-muted { color: hsl(var(--accent-foreground-border-muted)); }
+	.bg-accent-foreground-border-muted {
+		background-color: hsl(var(--accent-foreground-border-muted));
+	}
+	.text-accent-foreground-border-muted {
+		color: hsl(var(--accent-foreground-border-muted));
+	}
 
-  .bg-accent-foreground-border-muted-hover { background-color: hsl(var(--accent-foreground-border-muted-hover)); }
-  .text-accent-foreground-border-muted-hover { color: hsl(var(--accent-foreground-border-muted-hover)); }
+	.bg-accent-foreground-border-muted-hover {
+		background-color: hsl(var(--accent-foreground-border-muted-hover));
+	}
+	.text-accent-foreground-border-muted-hover {
+		color: hsl(var(--accent-foreground-border-muted-hover));
+	}
 
-  .bg-accent-foreground-border-muted-active { background-color: hsl(var(--accent-foreground-border-muted-active)); }
-  .text-accent-foreground-border-muted-active { color: hsl(var(--accent-foreground-border-muted-active)); }
+	.bg-accent-foreground-border-muted-active {
+		background-color: hsl(var(--accent-foreground-border-muted-active));
+	}
+	.text-accent-foreground-border-muted-active {
+		color: hsl(var(--accent-foreground-border-muted-active));
+	}
 
-  .bg-accent-foreground-border-muted-focus { background-color: hsl(var(--accent-foreground-border-muted-focus)); }
-  .text-accent-foreground-border-muted-focus { color: hsl(var(--accent-foreground-border-muted-focus)); }
+	.bg-accent-foreground-border-muted-focus {
+		background-color: hsl(var(--accent-foreground-border-muted-focus));
+	}
+	.text-accent-foreground-border-muted-focus {
+		color: hsl(var(--accent-foreground-border-muted-focus));
+	}
 
-  /* Font Families */
-  .font-sans {
-    font-family: var(--font-geist-sans);
-  }
-  .font-mono {
-    font-family: var(--font-geist-mono);
-  }
-  .font-caption {
-    font-family: var(--font-caption);
-  }
+	/* Font Families */
+	.font-sans {
+		font-family: var(--font-geist-sans);
+	}
+	.font-mono {
+		font-family: var(--font-geist-mono);
+	}
+	.font-caption {
+		font-family: var(--font-caption);
+	}
 }
