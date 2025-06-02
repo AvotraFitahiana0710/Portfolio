@@ -136,14 +136,14 @@ const SIDE_PROJECT: SideProjectProps[] = [
 ];
 
 type SideProjectProps = {
-  Logo: LucideIcon;
+  Logo: LucideIcon | string;
   title: string;
   description: string;
   url: string;
 };
 
 const SideProject = (props: {
-  Logo: LucideIcon;
+  Logo: LucideIcon | string;
   title: string;
   description: string;
   url: string;
