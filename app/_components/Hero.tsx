@@ -1,4 +1,3 @@
-import { ComponentPropsWithoutRef } from "react";
 import { Section } from "./Section";
 import { JavascriptIcon } from "./icons/JavascriptIcon";
 import { Code } from "./Code";

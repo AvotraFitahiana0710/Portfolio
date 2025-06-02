@@ -2,14 +2,11 @@ import { Card } from "@/components/ui/card";
 import { Section } from "./Section";
 import {
   LucideIcon,
-  Home,
   StickyNote,
   Rss,
   ArrowUpRight,
-  Clock,
   CalendarCheck,
   Gamepad,
-  Briefcase,
   UserCircle,
 } from "lucide-react";
 import Link from "next/link";

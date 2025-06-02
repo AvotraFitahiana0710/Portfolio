@@ -1,9 +1,5 @@
 import { Badge } from "@/components/ui/badge";
 import { Section } from "./Section";
-import { ReactIcon } from "./icons/ReactIcon";
-import { Code } from "./Code";
-import { PythonIcon } from "./icons/PythonIcon";
-import { TailwindCSSIcon } from "./icons/TailwindCSSIcon";
 import { ContactCard } from "./Status";
 
 export const Contact = () => {
