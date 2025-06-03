@@ -7,7 +7,9 @@ const config: Config = {
 		"./pages/**/*.{js,ts,jsx,tsx,mdx}", // pour le dossier `pages`
 		"./components/**/*.{js,ts,jsx,tsx,mdx}", // pour les composants
 		"./src/**/*.{js,ts,jsx,tsx,mdx}", // pour les composants
+		
 	],
+	
 	theme: {
 		extend: {
 			colors: {
@@ -80,17 +82,6 @@ const config: Config = {
 			},
 		},
 	},
-	safelist: [
-		"bg-background",
-		"text-foreground",
-		// ajoute d'autres classes dynamiques que tu utilises mais qui pourraient être purgées
-		"bg-accent",
-		"text-accent-foreground",
-		"border-accent",
-		"hover:bg-accent/50",
-		"hover:text-accent-foreground",
-		"hover:border-accent",
-	],
 	plugins: [
 		// require('tailwindcss-animate'),
 	],
