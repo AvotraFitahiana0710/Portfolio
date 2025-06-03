@@ -107,7 +107,7 @@ const SIDE_PROJECT: SideProjectProps[] = [
     Logo: UserCircle,
     title: "Portfolio",
     description: "Fait avec Next.js, React, Tailwind CSS",
-    url: "https://github.com/AvotraFitahiana0710/Stage-dev.git",
+    url: "https://github.com/AvotraFitahiana0710/Portfolio.git",
   },
   {
     Logo: CalendarCheck,
