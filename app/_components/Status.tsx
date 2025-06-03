@@ -185,7 +185,7 @@ type WorkProps = {
 };
 
 const Work = (props: {
-  image: LucideIcon;
+  image: string;
   title: string;
   role: string;
   date: string;
