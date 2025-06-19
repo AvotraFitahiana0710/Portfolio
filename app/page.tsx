@@ -5,21 +5,24 @@ import { Status } from "./_components/Status";
 import { Skills } from "./_components/Skills";
 import { Contact } from "./_components/Contact";
 import { Footer } from "./Footer";
+import { GroupButton } from "./_components/GroupButton";
 
 export default function Home() {
-	return (
-		<main>
-			<Header />
-			<Spacing size="md" />
-			<Hero />
-			<Spacing size="md" />
-			<Status />
-			<Spacing size="md" />
-			<Skills />
-			<Spacing size="md" />
-			<Contact />
-			<Spacing size="md" />
-			<Footer />
-		</main>
-	);
+  return (
+    <main>
+      <Header />
+      <Spacing size="md" />
+      <Hero />
+      <Spacing size="md" />
+      <GroupButton />
+      <Spacing size="md" />
+      <Status />
+      <Spacing size="md" />
+      <Skills />
+      <Spacing size="md" />
+      <Contact />
+      <Spacing size="md" />
+      <Footer />
+    </main>
+  );
 }

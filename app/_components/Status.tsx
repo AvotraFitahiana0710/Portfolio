@@ -106,31 +106,32 @@ const SIDE_PROJECT: SideProjectProps[] = [
   {
     Logo: UserCircle,
     title: "Portfolio",
-    description: "Fait avec Next.js, React, Tailwind CSS",
+    description: "Made with Next.js, React, Tailwind CSS",
     url: "https://github.com/AvotraFitahiana0710/Portfolio.git",
+  },
+  {
+    Logo: StickyNote,
+    title: "Task manager",
+    description:
+      "Web Application made with NextJs, React, tailwind CSS and Prisma",
+    url: "https://github.com/AvotraFitahiana0710/DB-enligne.git",
   },
   {
     Logo: CalendarCheck,
     title: "Gestion de pointage",
-    description: "Application de gestion de pointage pour les employés",
+    description: "Web Application made with Django/Python and Bootstrap",
     url: "https://github.com/AvotraFitahiana0710/Stage-dev.git",
   },
   {
     Logo: Rss,
-    title: "Gestion de réservation pour un voyage",
-    description: "Application de gestion de client pour les Copératives",
+    title: "Vakansy",
+    description: "Application for managing client for a ship",
     url: "https://github.com/AvotraFitahiana0710/voyage.git",
-  },
-  {
-    Logo: StickyNote,
-    title: "Gestion de tâches",
-    description: "Application de gestion de tâches pour les équipes",
-    url: "https://github.com/AvotraFitahiana0710/DB-enligne.git",
   },
   {
     Logo: Gamepad,
     title: "Fanorona",
-    description: "Jeu de fanorona réalisé avec Python",
+    description: "Mini-game made with Python",
     url: "https://github.com/AvotraFitahiana0710/mini-game.git",
   },
 ];
