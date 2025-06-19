@@ -13,7 +13,6 @@ export default function Home() {
       <Header />
       <Spacing size="md" />
       <Hero />
-      <Spacing size="md" />
       <GroupButton />
       <Spacing size="md" />
       <Status />
