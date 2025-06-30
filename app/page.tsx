@@ -13,6 +13,9 @@ export default function Home() {
       <Header />
       <Spacing size="md" />
       <Hero />
+      <div className="hidden max-md:block">
+        <Spacing size="md" />
+      </div>
       <GroupButton />
       <Spacing size="md" />
       <Status />

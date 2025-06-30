@@ -170,9 +170,9 @@ const WORKS: WorkProps[] = [
   {
     image:
       "https://static.wikia.nocookie.net/logopedia/images/2/2d/ORTM_%28Madagascar%29_Logo.png/revision/latest/scale-to-width-down/284?cb=20211122094706",
-    title: "Developpeur full stack junior",
-    role: "Stagiaire",
-    date: " Janvier 2025 Avril 2025",
+    title: "Full-Stack Developer",
+    role: "Trainee",
+    date: " January 2025 april 2025",
     url: "/",
   },
 ];
