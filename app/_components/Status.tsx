@@ -119,7 +119,7 @@ const SIDE_PROJECT: SideProjectProps[] = [
   {
     Logo: CalendarCheck,
     title: "Gestion de pointage",
-    description: "Web Application made with Django/Python and Bootstrap",
+    description: "Made with Django/Python and Bootstrap",
     url: "https://github.com/AvotraFitahiana0710/Stage-dev.git",
   },
   {
