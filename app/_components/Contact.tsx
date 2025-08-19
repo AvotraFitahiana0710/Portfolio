@@ -14,7 +14,7 @@ export const Contact = () => {
         <ContactCard
           className="flex-1"
           url="https://linkedin.com/in/avotra-fitahiana-rakotoarisoa-60a430328"
-          image="https://media.licdn.com/dms/image/v2/D4D03AQFZ0WZXjh0iYg/profile-displayphoto-shrink_800_800/B4DZWi7711H4Ac-/0/1742195377450?e=1752710400&v=beta&t=hpB6mbvaGdVbUTUm8wcN4MYLGuSudzcTFVlzRBGBkiI"
+          image="edou_pic.png"
           mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyA7juENXGkALsSH13xrmGvs8Rhl6rOM_rw&s"
           name="Avotra"
           description="Add me"
@@ -22,7 +22,7 @@ export const Contact = () => {
         <ContactCard
           className="flex-1"
           url="https://www.instagram.com/edou_uuu?igsh=MXFiaGJpbnhsZjF1eQ%3D%3D&utm_source=qr"
-          image="https://media.licdn.com/dms/image/v2/D4D03AQFZ0WZXjh0iYg/profile-displayphoto-shrink_800_800/B4DZWi7711H4Ac-/0/1742195377450?e=1752710400&v=beta&t=hpB6mbvaGdVbUTUm8wcN4MYLGuSudzcTFVlzRBGBkiI"
+          image="edou_pic.png"
           mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNPYBLb6Z4PIJSlr6qXbUy8VZ0w2w4BPPVQ&s"
           name="@edou_uuu"
           description="Follow me on Instagram"
@@ -30,7 +30,7 @@ export const Contact = () => {
         <ContactCard
           className="flex-1"
           url="mailto:avotrafitahianar@gmail.com"
-          image="https://lh3.googleusercontent.com/a/ACg8ocJMu-qr6kbDp35306g0O7f9keP35mTIvQYLQ2BQw4pOuPTjTA=s192-c-rg-br100 "
+          image="edou_pic.png"
           mediumImage="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/800px-Gmail_icon_%282020%29.svg.png"
           name="avotrafitahianar@gmail.com"
           description="Email me for any collaboration "

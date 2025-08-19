@@ -27,7 +27,7 @@ export const Hero = () => {
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
         <img
-          src="https://media.licdn.com/dms/image/v2/D4D03AQFZ0WZXjh0iYg/profile-displayphoto-shrink_800_800/B4DZWi7711H4Ac-/0/1742195377450?e=1752710400&v=beta&t=hpB6mbvaGdVbUTUm8wcN4MYLGuSudzcTFVlzRBGBkiI"
+          src="edou_pic.png"
           alt="RAKOTOARISOA's picture"
           className="w-full h-auto rounded-full mw-xs max-md:w-56"
         />

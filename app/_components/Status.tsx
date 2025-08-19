@@ -17,7 +17,7 @@ export const Status = () => {
       <div className="flex-[3] w-full">
         <Card className="flex-[3] p-4 flex flex-col gap-4 w-full">
           <p className="text-lg text-muted-foreground">Mini Project</p>
-          <div className="flex flex-col gap-2">
+          <div className="flex flex-col gap-4">
             {SIDE_PROJECT.map((project) => (
               <SideProject
                 key={project.title}
@@ -30,7 +30,7 @@ export const Status = () => {
           </div>
         </Card>
       </div>
-      <div className="flex-[2] w-full flex flex-col gap-4">
+      <div className="flex-[2] w-full flex flex-col gap-1">
         <Card className="p-4 flex-1">
           <p className="text-lg text-muted-foreground">Work</p>
           <div className="flex flex-col gap-4">
@@ -43,7 +43,7 @@ export const Status = () => {
           <p className="text-lg text-muted-foreground">Contact me</p>
           <ContactCard
             url="https://www.instagram.com/edou_uuu?igsh=MXFiaGJpbnhsZjF1eQ%3D%3D&utm_source=qr"
-            image="https://media.licdn.com/dms/image/v2/D4D03AQFZ0WZXjh0iYg/profile-displayphoto-shrink_800_800/B4DZWi7711H4Ac-/0/1742195377450?e=1752710400&v=beta&t=hpB6mbvaGdVbUTUm8wcN4MYLGuSudzcTFVlzRBGBkiI"
+            image="edou_pic.png"
             name="@edou_uuu"
             mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpNPYBLb6Z4PIJSlr6qXbUy8VZ0w2w4BPPVQ&s" // Image Twitter ou instagram
             description="Follow me on Instagram"
@@ -51,7 +51,7 @@ export const Status = () => {
           <ContactCard
             url="https://linkedin.com/in/avotra-fitahiana-rakotoarisoa-60a430328"
             name="RAKOTOARISOA Avotra"
-            image="https://media.licdn.com/dms/image/v2/D4D03AQFZ0WZXjh0iYg/profile-displayphoto-shrink_800_800/B4DZWi7711H4Ac-/0/1742195377450?e=1752710400&v=beta&t=hpB6mbvaGdVbUTUm8wcN4MYLGuSudzcTFVlzRBGBkiI"
+            image="edou_pic.png"
             mediumImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlyA7juENXGkALsSH13xrmGvs8Rhl6rOM_rw&s" // image linkedIn
             description="Join me on Linkedin"
           />
@@ -168,11 +168,18 @@ const SideProject = (props: {
 
 const WORKS: WorkProps[] = [
   {
-    image:
-      "https://static.wikia.nocookie.net/logopedia/images/2/2d/ORTM_%28Madagascar%29_Logo.png/revision/latest/scale-to-width-down/284?cb=20211122094706",
-    title: "Full-Stack Developer",
+    image: "ORTM_pic.webp",
+    title: "Web Developer",
     role: "Trainee",
     date: " January 2025 april 2025",
+    url: "/",
+  },
+  {
+    image:
+      "https://media.licdn.com/dms/image/v2/C4E0BAQGP10EOt5LZgw/company-logo_200_200/company-logo_200_200/0/1631322361514?e=1758758400&v=beta&t=Ezh55l8V8oHUYXJGavXw3wC8QA-q3bIpEJlo4rlrNOg",
+    title: "Web Developer",
+    role: "Trainee",
+    date: " July 2025 - now",
     url: "/",
   },
 ];
