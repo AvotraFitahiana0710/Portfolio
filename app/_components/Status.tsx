@@ -175,8 +175,7 @@ const WORKS: WorkProps[] = [
     url: "/",
   },
   {
-    image:
-      "https://media.licdn.com/dms/image/v2/C4E0BAQGP10EOt5LZgw/company-logo_200_200/company-logo_200_200/0/1631322361514?e=1758758400&v=beta&t=Ezh55l8V8oHUYXJGavXw3wC8QA-q3bIpEJlo4rlrNOg",
+    image: "EQIMA_SOLUTION.PNG",
     title: "Web Developer",
     role: "Trainee",
     date: " July 2025 - now",
