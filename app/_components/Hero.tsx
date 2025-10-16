@@ -8,7 +8,7 @@ export const Hero = () => {
         <h2 className="font-caption font-bold text-5xl text-primary">
           RAKOTOARISOA Avotra Fitahiana
         </h2>
-        <h3 className="text-3xl font-caption">Developper full-Stack Junior</h3>
+        <h3 className="text-3xl font-caption">Developper full-Stack</h3>
         <p className="text-base">
           I am a full stack developper from{" "}
           <Code className="text-xs">🇲🇬 Madagascar</Code> with a passion for
