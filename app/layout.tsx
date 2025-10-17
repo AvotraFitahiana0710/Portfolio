@@ -4,6 +4,8 @@ import { Anek_Telugu } from "next/font/google";
 // import { GeistSans } from "geist/font/sans";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { Analytics } from "@vercel/analytics/react";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -40,7 +42,9 @@ export default function RootLayout({
 				)}
 			>
 				{children}
-			</body>
-		</html>
-	);
-}
+				<Analytics />
+				<SpeedInsights />
+				</body>
+				</html>
+				);
+				}
