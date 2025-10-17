@@ -6,6 +6,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import VisitPing from "./_components/VisitPing";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -41,6 +42,7 @@ export default function RootLayout({
 					"font-sans h-full bg-background text-foreground",
 				)}
 			>
+				<VisitPing />
 				{children}
 				<Analytics />
 				<SpeedInsights />
