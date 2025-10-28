@@ -111,10 +111,10 @@ const SIDE_PROJECT: SideProjectProps[] = [
   },
   {
     Logo: StickyNote,
-    title: "Task manager",
+    title: "Depenses manager",
     description:
-      "Web Application made with NextJs, React, tailwind CSS and Prisma",
-    url: "https://github.com/AvotraFitahiana0710/DB-enligne.git",
+      "Web Application made with Node.js, Express.js, React.js, MongoDB and tailwind CSS",
+    url: "https://mitsitsy.vercel.app",
   },
   {
     Logo: CalendarCheck,
@@ -152,15 +152,19 @@ const SideProject = (props: {
   return (
     <Link
       href={props.url}
-      className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      className="group inline-flex items-center gap-4 hover:bg-amber-100 transition-colors p-1 rounded"
     >
       <span className="bg-accent text-accent-foreground p-3 rounded-sm">
         <props.Logo size={16} />
       </span>
       <div>
         {" "}
-        <p className="text-lg font-semibold">{props.title}</p>
-        <p className="text-sm text-muted-foreground">{props.description}</p>
+        <p className="text-lg font-semibold group-hover:text-black transition-colors">
+          {props.title}
+        </p>
+        <p className="text-sm text-muted-foreground group-hover:text-black transition-colors">
+          {props.description}
+        </p>
       </div>
     </Link>
   );
@@ -201,7 +205,7 @@ const Work = (props: {
   return (
     <Link
       href={props.url}
-      className="inline-flex items-center gap-4 hover:bg-accent/50 transition-colors p-1 rounded"
+      className="group inline-flex items-center gap-4 hover:bg-amber-100 transition-colors p-1 rounded"
     >
       <img
         src={props.image}
@@ -210,10 +214,10 @@ const Work = (props: {
       />
       <div className="mr-auto">
         {" "}
-        <p className="text-sm font-semibold">{props.title}</p>
-        <p className="text-xs text-muted-foreground">{props.role}</p>
+        <p className="text-sm font-semibold group-hover:text-black transition-colors">{props.title}</p>
+        <p className="text-xs text-muted-foreground group-hover:text-black transition-colors">{props.role}</p>
       </div>
-      <p className="text-xs text-end text-muted-foreground">{props.date}</p>
+      <p className="text-xs text-end text-muted-foreground group-hover:text-black transition-colors">{props.date}</p>
     </Link>
   );
 };

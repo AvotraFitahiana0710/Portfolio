@@ -413,6 +413,10 @@
 		color: hsl(var(--accent-foreground-border-muted-focus));
 	}
 
+	.accent-hover {
+		background-color: hsl(var(--accent-hover));
+	}
+
 	/* Font Families */
 	.font-sans {
 		font-family: var(--font-geist-sans);
