@@ -1,5 +1,6 @@
 import { Section } from "./Section";
-import { JavascriptIcon } from "./icons/JavascriptIcon";
+import { TypescriptIcon } from "./icons/TypescriptIcon";
+import { FlutterIcon } from "./icons/FlutterIcon";
 import { Code } from "./Code";
 export const Hero = () => {
   return (
@@ -17,12 +18,18 @@ export const Hero = () => {
           {/* <Link>
           </Link> */}
           <Code className="inline-flex items-center gap-1 text-xs">
-            <JavascriptIcon size={12} className="inline" />
-            Javascript
+            <TypescriptIcon size={12} className="inline" />
+            TypeScript
           </Code>
-          . I am a quick learner and I am always looking to expand my knowledge
-          and skill set. I am a team and solo player, and I am excited to work
-          with anothers to create amazing applications.
+          . I am also passionate about mobile development with{" "}
+          <Code className="inline-flex items-center gap-1 text-xs">
+            <FlutterIcon size={12} className="inline" />
+            Flutter
+          </Code>
+          , building cross-platform apps for mobile and iOS. I am a quick
+          learner and I am always looking to expand my knowledge and skill
+          set. I am a team and solo player, and I am excited to work with
+          anothers to create amazing applications.
         </p>
       </div>
       <div className="flex-[2] max-md:m-auto ml-auto">
