@@ -1,9 +1,8 @@
 import { Badge } from "@/components/ui/badge";
 import { Section } from "./Section";
-import { ReactIcon } from "./icons/ReactIcon";
+import { TypescriptIcon } from "./icons/TypescriptIcon";
 import { Code } from "./Code";
-import { PythonIcon } from "./icons/PythonIcon";
-import { TailwindCSSIcon } from "./icons/TailwindCSSIcon";
+import { FlutterIcon } from "./icons/FlutterIcon";
 import { NextJsIcon } from "./icons/NextJsIcon";
 
 export const Skills = () => {
@@ -15,24 +14,16 @@ export const Skills = () => {
       </h2>
       <div className="flex max-md:flex-col gap-4">
         <div className="flex flex-col gap-2 flex-1">
-          <ReactIcon
-            size={42}
-            className="animate-spin"
-            style={{
-              animationDuration: "10s",
-            }}
-          />
-          <h3 className="text-2xl font-semibold tracking-tight">React</h3>
+          <TypescriptIcon size={42} />
+          <h3 className="text-2xl font-semibold tracking-tight">TypeScript</h3>
           <p className="text-muted-foreground text-sm">
-            My main JavaScript library for building user interfaces. I love
-            working with{" "}
+            My main language for web development. I love working with{" "}
             <Code className="inline-flex items-center gap-1 text-xs">
-              <ReactIcon size={12} />
-              React
+              <TypescriptIcon size={12} />
+              TypeScript
             </Code>
-            because it allows me to create dynamic and interactive web
-            applications efficiently, with reusable components and a strong
-            ecosystem. I also use{" "}
+            because it brings static typing, safer refactors and a better
+            developer experience to JavaScript projects. I also use{" "}
             <Code className="inline-flex items-center gap-1 text-xs">
               <NextJsIcon size={12} />
               Next.Js
@@ -41,35 +32,24 @@ export const Skills = () => {
           </p>
         </div>
         <div className="flex flex-col gap-2 flex-1">
-          <PythonIcon size={42} />
-          <h3 className="text-2xl font-semibold tracking-tight">Python</h3>
+          <FlutterIcon size={42} />
+          <h3 className="text-2xl font-semibold tracking-tight">Flutter</h3>
           <p className="text-muted-foreground text-sm">
             I use{" "}
             <Code className="inline-flex items-center gap-1 text-xs">
-              <PythonIcon size={12} />
-              Python
+              <FlutterIcon size={12} />
+              Flutter
             </Code>{" "}
-            for backend development, web development. And I usualy use{" "}
+            to build cross-platform{" "}
             <Code className="inline-flex items-center gap-1 text-xs">
-              Django
-            </Code>
-            as a framework.
-          </p>
-        </div>
-        <div className="flex flex-col gap-2 flex-1">
-          <TailwindCSSIcon size={42} />
-          <h3 className="text-2xl font-semibold tracking-tight">
-            Tailwind CSS
-          </h3>
-          <p className="text-muted-foreground text-sm">
-            I make some of my projects with{" "}
+              mobile
+            </Code>{" "}
+            and{" "}
             <Code className="inline-flex items-center gap-1 text-xs">
-              <TailwindCSSIcon size={12} />
-              TailwindCSS
-            </Code>
-            . It is a utility-first CSS framework that enables rapid UI
-            development with composable classes and responsive design out of the
-            box.
+              iOS
+            </Code>{" "}
+            applications with a single codebase, native performance and a rich
+            set of customizable widgets.
           </p>
         </div>
       </div>
